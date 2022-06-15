@@ -1,0 +1,7 @@
+composer create-project laravel/Laravel taufikinputdataabsensi
+composer require laravel/jetstream
+php artisan jetstream:install livewire
+npm install 
+npm run dev
+-changes in the table 
+php artisan migrate
